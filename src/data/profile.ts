@@ -82,3 +82,13 @@ export const education = [
 export const certifications = [
   { name: 'IELTS (General Training)', detail: 'Overall Band 6.5 — May 2025' },
 ]
+
+export const projects = [
+  {
+    name: 'Route Optimizer',
+    description:
+      'A logistics route-planning demo: add stops, choose one-way or round-trip, and compute the most efficient visiting order. Optimization runs on Google OR-Tools (Python) via a serverless backend; the map and geocoding use OpenStreetMap/Leaflet — no paid mapping API required.',
+    stack: ['React', 'TypeScript', 'Leaflet', 'Python', 'Google OR-Tools', 'Vercel'],
+    demoUrl: 'https://route-optimizer-web-vernando.vercel.app/',
+  },
+]
