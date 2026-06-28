@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="bg-slate-950 text-slate-100">
+    <div className="min-h-screen bg-term-bg font-sans text-slate-100">
       <Nav />
       <Hero />
       <Skills />
